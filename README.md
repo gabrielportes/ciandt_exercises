@@ -14,7 +14,7 @@ A capital da Espanha e Madrid
 
     * a) Primeiro, cria uma função chamada foiMordido() que deverá retornar  TRUE para 50% das vezes e FALSE para os outros 50%. A função rand() pode ser útil aqui.
 
-    * b) Após criar a função, crie um código/página que mostre as frases ?Joãozinho mordeu o seu dedo !? ou ?Joaozinho NAO mordeu o seu dedo !? usando a função foiMordido() que foi criado na primeira parte.
+    * b) Após criar a função, crie um código/página que mostre as frases "Joãozinho mordeu o seu dedo !" ou "Joaozinho NAO mordeu o seu dedo !" usando a função foiMordido() que foi criado na primeira parte.
 
 
 3. Escreva uma função em PHP para pegar determinar a extensão dos 3 arquivos abaixo e mostrar as extensões na tela. As saídas devem ser mostradas em uma lista em ordem alfabética.
