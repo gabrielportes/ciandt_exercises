@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Cadastro</h1>
+    <div class="col-9">
+        <form action="action.php" method="post" enctype="application/x-www-form-urlencoded">
+            <div class="row">
+                <div class="col form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="col form-group">
+                    <label for="last_name">Sobrenome:</label>
+                    <input type="text" class="form-control" id="last_name" name="last_name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" class="form-control" id="phone" name="phone"
+                        pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" placeholder="(99) 9999-9999"
+                        title="Formato: (99) 9999-9999" required>
+                </div>
+                <div class="col form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="nome@servidor.com"
+                        required>
+                </div>
+                <div class="col form-group">
+                    <label for="pwd">Senha:</label>
+                    <input type="password" class="form-control" id="pwd" name="pwd" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </form>
+    </div>
+</body>
+
+</html>
